@@ -1,3 +1,5 @@
+/*Parte de cima da pagina*/
+
 * {
 
    margin:  0;
@@ -8,14 +10,14 @@ body{
 
     height: 100vh;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     overflow-x: hidden;
     
 }
 
 .cabecalho_link{
 
-    width: 80%;
+    width: 100%;
     
     display: flex;
     justify-content: center;
@@ -24,9 +26,10 @@ body{
 .cabecalho_link a{
 
     margin: 3%;
-    font-family: Arial, sans-serif;
-    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0b38a1;
     text-decoration: none;   
+    justify-content: center;
 }
 
 header img{
@@ -63,7 +66,7 @@ main {
 
 }
 
-
+/* pagina lançamento e tamanho de imagens*/
 .anuncio {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +81,7 @@ main {
     border-radius: 8px;
   }
   
-  /*CARROS*/
+  
   .carros {
     display: flex;
     flex-wrap: wrap;
@@ -172,6 +175,7 @@ height: 30px;
    border: solid grey 1px;
 
 }
+/*Página contato e imagens*/
 .formulario {
 
 display: flex;
@@ -225,7 +229,7 @@ width: 260px;
     background-color:#4682B4  ;
 
 }
-
+/*Rodapé do site*/
 footer {
 
 height: 70px;
